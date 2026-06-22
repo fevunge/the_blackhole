@@ -1,0 +1,12 @@
+version: '3'
+
+name: black_hole
+read_only: true
+
+metadata:
+  - name: black_hole
+  - author: fevunge
+  - remote_repo: black_hole
+  - local_repo: black_hole
+
+
