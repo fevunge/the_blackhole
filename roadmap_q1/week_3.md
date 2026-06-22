@@ -29,14 +29,14 @@
 **Overview**
 	Reimplementar `std::vector` e `std::unordered_map` do zero em C++20,  com standards modernos. 
 	Essa é a forma mais eficaz de entender o que acontece por baixo de todo o código C++ que escreves.
-	O teu `ft_vector<T>` tem de implementar todos os métodos do equivalente standard: **push_back, emplace_back, insert, erase, resize, reserve, iterators bidirecionais, exception safety com strong guarantee em todos os métodos mutadores, e compatibilidade com C++20 Ranges**. 
-	O teu `ft_hashmap<K,V>` usa **open addressing com Robin Hood hashing** (mais cache-friendly que chaining), **tombstones** para deletes eficientes, e load factor configurável.
+	O teu `the_vector<T>` tem de implementar todos os métodos do equivalente standard: **push_back, emplace_back, insert, erase, resize, reserve, iterators bidirecionais, exception safety com strong guarantee em todos os métodos mutadores, e compatibilidade com C++20 Ranges**. 
+	O teu `the_hashmap<K,V>` usa **open addressing com Robin Hood hashing** (mais cache-friendly que chaining), **tombstones** para deletes eficientes, e load factor configurável.
 	Para ambos: zero memory leaks confirmado via Valgrind e AddressSanitizer, benchmarks que ficam a menos de 10% do std em operações core, e documentação Doxygen completa.
 
 **Arquitetura**
 ```cpp
 template<typename T, typename Allocator = std::allocator<T>>
-class ft_vector {
+class the_vector {
     // Growth factor configurável (default: 2x)
     // Iterator: random access, bidirectional, C++20 ranges compatible
     // Exception safety: strong guarantee em push_back, insert, emplace
@@ -44,7 +44,7 @@ class ft_vector {
 };
 
 template<typename K, typename V, typename Hash = std::hash<K>>
-class ft_hashmap {
+class the_hashmap {
     // Robin Hood hashing — reduz variance do probe length
     // Tombstone deletion — O(1) delete sem rehash
     // Load factor max: 0.7 (configurável)
