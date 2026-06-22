@@ -1,0 +1,9 @@
+{
+  "theme": "system",
+  "accentColor": "",
+  "interfaceFontFamily": "FiraCode Nerd Font Mono",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "baseFontSize": 20,
+  "nativeMenus": false,
+  "cssTheme": "Catppuccin"
+}
