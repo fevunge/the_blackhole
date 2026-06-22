@@ -12,7 +12,7 @@ Integrar TODOS os conhecimentos de Q1 num sistema real de nível production.
 - **Frontend:** React 19 + TypeScript + Tailwind CSS + TanStack Query
 - **Backend:** Node.js + Hono + TypeScript(usando a API da [[week_2]])
 - **Auth:** Microservice da [[week_7]]
-- **Database:** PostgreSQL (row-level security) applicado lições da [[week_7]]
+- **Database:** PostgreSQL (row-level security) applicado lições da [[week_6]]
 - **Cache:** Redis (sessões + rate limiting)
 - **Storage:** MinIO (local S3-compatible)
 - **Infra:** Docker Compose (usando orchestrator da [[week_10]])
