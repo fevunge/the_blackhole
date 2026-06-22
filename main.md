@@ -7,8 +7,8 @@ _52 semanas_ | _48 projectos_
 | Core       | Exploratórias | Especialização           |
 | ---------- | ------------- | ------------------------ |
 | TypeScript | Zig           | Arquitectura de Sistemas |
-| Node.js    | Elixir        | Cybersegurança           |
-| React      | WebAssembly   | Computação Gráfica       |
+| Rust       | Elixir        | Cybersegurança           |
+| Go         | WebAssembly   | Computação Gráfica       |
 | C/C++      |               | Machine Learning         |
 | Python     |               | Distributed Systems      |
 
@@ -16,7 +16,7 @@ _52 semanas_ | _48 projectos_
 
 | Plataforma                 | Uso                                | Meta                           |
 | -------------------------- | ---------------------------------- | ------------------------------ |
-| **LeetCode**               | Algoritmos diários                 | 200+ problemas                 |
+| **LeetCode**               | Algoritmos diários                 | 200+ problemas; 5 / semana     |
 | **Exercism**               | Prática por linguagem + mentorship | 1 track por linguagem estudada |
 | **Codewars**               | Katas diários de aquecimento       | Rank 4kyu+                     |
 | **TryHackMe / HackTheBox** | Cybersecurity hands-on             | 10+ rooms/machines             |
