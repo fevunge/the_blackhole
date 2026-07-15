@@ -1,8 +1,8 @@
 _52 semanas_ | _48 projectos_
 #black_hole
 
-
-# Tech Stack
+# The Last BlackHole 
+## Tech Stack
 
 | Core       | Exploratórias | Especialização           |
 | ---------- | ------------- | ------------------------ |
@@ -12,7 +12,7 @@ _52 semanas_ | _48 projectos_
 | C/C++      |               | Machine Learning         |
 | Python     |               | Distributed Systems      |
 
-# Learn Platform
+## Learn Platform
 
 | Plataforma                 | Uso                                | Meta                           |
 | -------------------------- | ---------------------------------- | ------------------------------ |
