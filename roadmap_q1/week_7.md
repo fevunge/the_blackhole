@@ -1,5 +1,5 @@
 # Authentication & Authorization Deep Dive
-#s_week 
+#week 
 
 ## Objectivos
 - OAuth 2.0: todos os flows com Authorization Code + PKCE, Client Credentials, Device Authorization
@@ -59,42 +59,4 @@
 - [ ] OpenAPI 3.1 spec completa com Swagger UI
 - [ ] Blog: "Building a Production Auth System with Passkeys in 2026"
 - [ ] Video: Demo de registo e login via Passkey (do zero)
----
-# _**Bônus [03.2]**_
 
-## Modelo C4 & Comunicação Visual de Arquitectura
-
-**Objectivo** 
-	Dominar a linguagem visual de arquitectura. Um arquitecto que não consegue comunicar graficamente a sua solução é ineficaz.
-
-### Recursos
-
-| Tipo   | Recurso                                                                                                                      |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| Site   | [C4 Model — Simon Brown (c4model.com)](https://c4model.com/) — lê TUDO                                                       |
-| Livro  | _Software Architecture for Developers_ — Simon Brown (disponível parcialmente grátis no Leanpub)                             |
-| Vídeo  | ["Visualising software architecture with the C4 model" — Simon Brown (YouTube)](https://www.youtube.com/watch?v=x2-rSnhpw0g) |
-| Artigo | UML Distilled — Martin Fowler (capítulos sobre diagramas de sequência e componentes)                                         |
-| Tool   | [Structurizr Lite](https://structurizr.com/help/lite) — C4 como código, **gratuito**                                         |
-
-### Prática
-
-- Cria os diagramas deste projecto em C4
-- Recria os diagramas do projecto anterior em C4 (Context → Container → Component)
-- Pratica diagramas de sequência UML para fluxos comuns (login, pagamento, upload)
-- Aprende a usar Structurizr DSL para diagramas-como-código
-
-### PROJECTO: _"Sistema de Reservas — C4 Completo"_
-
-**Overview** 
-	Desenha a arquitectura de um sistema de reservas de hotel (sem implementar código). Entrega os 4 níveis C4:
-
-- Level 1: Context Diagram
-- Level 2: Container Diagram
-- Level 3: Component Diagram (para o container principal)
-- Level 4: Code Diagram (opcional — apenas classes principais)
-
-**Entrega** 
-	Diagramas exportados + documento LaTeX explicando cada decisão em cada nível
-
-# [Parte 2/2]

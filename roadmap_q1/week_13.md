@@ -1,16 +1,26 @@
 # PROJECTO INTEGRADOR — Plataforma SaaS Segura
-#s_week 
+#week 
 
 ## Objectivo
 
 Integrar TODOS os conhecimentos de Q1 num sistema real de nível production.
+
+# Recursos
+
+| Tipo   | Recurso                                                                                                                                       |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Livro  | _Design Patterns: Elements of Reusable Object-Oriented Software_ — Gang of Four (caps. seleccionados: Factory, Observer, Strategy, Decorator) |
+| Livro  | _Domain-Driven Design: Tackling Complexity in the Heart of Software_ — Eric Evans (Parte 1)                                                   |
+| Vídeo  | ["Domain Driven Design: The Good Parts" — Jimmy Bogard (YouTube)](https://www.youtube.com/watch?v=U6CeaA-Phqo)                                |
+| Artigo | "SOLID Principles" — Robert C. Martin (Wikipedia + blog posts originais)                                                                      |
+| Site   | [Refactoring.Guru — Design Patterns](https://refactoring.guru/design-patterns) — **excelente recurso visual gratuito**                        |
 
 # Projeto
 ### Multi-tenant SaaS Platform — Project Management Tool
 
 **Tech Stack**
 - **Frontend:** React 19 + TypeScript + Tailwind CSS + TanStack Query
-- **Backend:** Node.js + Hono + TypeScript(usando a API da [[week_2]])
+- **Backend:** Node.js + Hono + TypeScript(usando a API da [[event_2]])
 - **Auth:** Microservice da [[week_7]]
 - **Database:** PostgreSQL (row-level security) applicado lições da [[week_6]]
 - **Cache:** Redis (sessões + rate limiting)
@@ -34,6 +44,11 @@ Integrar TODOS os conhecimentos de Q1 num sistema real de nível production.
 - Audit log completo de todas as acções
 
 **Requisitos**
+- Aplica Domain-Driven Design ao domínio desse projeto 
+- Bounded Contexts
+- Entities, Value Objects, Aggregates
+- Domain Events
+- Context Map com relações entre contextos
 - Todas as vulnerabilidades da [[week_12]] mitigadas
 - Tenant isolation: row-level security no PostgreSQL
 - Security headers completos
@@ -60,33 +75,5 @@ Integrar TODOS os conhecimentos de Q1 num sistema real de nível production.
 - [ ] YouTube: Walkthrough completo (15-20min)
 - [ ] Pentest report
 
----
+
  
-# _**Bônus [04]**_
-## Design Patterns & Princípios SOLID/DDD
-
-**Objectivo** 
-	Compreender os padrões de design que informam decisões arquitecturais.
-
-## Recursos Obrigatórios
-
-| Tipo   | Recurso                                                                                                                                       |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Livro  | _Design Patterns: Elements of Reusable Object-Oriented Software_ — Gang of Four (caps. seleccionados: Factory, Observer, Strategy, Decorator) |
-| Livro  | _Domain-Driven Design: Tackling Complexity in the Heart of Software_ — Eric Evans (Parte 1)                                                   |
-| Vídeo  | ["Domain Driven Design: The Good Parts" — Jimmy Bogard (YouTube)](https://www.youtube.com/watch?v=U6CeaA-Phqo)                                |
-| Artigo | "SOLID Principles" — Robert C. Martin (Wikipedia + blog posts originais)                                                                      |
-| Site   | [Refactoring.Guru — Design Patterns](https://refactoring.guru/design-patterns) — **excelente recurso visual gratuito**                        |
-
-### PROJECTO: _"DDD para um Domínio Real"_
-
-**Overview** 
-	Aplica Domain-Driven Design ao domínio desse projeto 
-
-- Bounded Contexts
-- Entities, Value Objects, Aggregates
-- Domain Events
-- Context Map com relações entre contextos
-
-**Entrega** 
-	Document LaTeX com Context Map visual + glossário do domínio ubíquo (Ubiquitous Language)

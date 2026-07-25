@@ -8,44 +8,44 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#s_week  ",
-      "color": {
-        "a": 1,
-        "rgb": 15259533
-      }
-    },
-    {
       "query": "tag:#q  ",
       "color": {
         "a": 1,
-        "rgb": 15236221
+        "rgb": 16711684
       }
     },
     {
       "query": "tag:#week  ",
       "color": {
         "a": 1,
-        "rgb": 10077929
+        "rgb": 8388863
       }
     },
     {
       "query": "file:main",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 65450
+      }
+    },
+    {
+      "query": "path:roadmap_bonus  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8334907704632689,
+  "scale": 0.3803843269800616,
   "close": true
 }
