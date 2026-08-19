@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b276fc43ef81932f",
+        "id": "f049b4b2e894e01c",
         "type": "tabs",
         "children": [
           {
-            "id": "788e67d0011819be",
+            "id": "beb2937899258cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 362
   },
   "right": {
     "id": "c5b83c1acbe66e8d",
@@ -156,13 +158,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "main.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of main"
+              "title": "Outline"
             }
           }
         ],
@@ -170,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,44 +185,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "788e67d0011819be",
+  "active": "beb2937899258cd2",
   "lastOpenFiles": [
-    "post.md",
+    "goal.md",
+    "resource.md",
+    "roadmap_q1/week_1.md",
+    "main.md",
+    "weeks_overview.md",
+    "roadmap_q1/q1.md",
     "books.md",
+    "roadmap_q4/week_42.md",
+    "roadmap_q4/week_41.md",
+    "roadmap_q4/week_40.md",
+    "roadmap_q3/week_39.md",
+    "roadmap_q3/week_38.md",
+    "roadmap_q3/week_37.md",
+    "roadmap_q3/week_36.md",
+    "roadmap_q3/week_35.md",
+    "roadmap_q3/week_34.md",
+    "roadmap_q3/week_33.md",
+    "roadmap_q3/week_32.md",
+    "roadmap_q3/week_31.md",
+    "roadmap_q3/week_30.md",
+    "roadmap_q3/week_29.md",
+    "roadmap_q3/week_28.md",
+    "roadmap_q3/week_27.md",
+    "roadmap_q3/q3.md",
+    "roadmap_q2/week_26.md",
+    "roadmap_q2/week_25.md",
     "black_hole_graph.canvas",
     "ga.svg",
-    "main.md",
     "do.sh~",
     "Untitled.base",
     "do.sh",
-    "roadmap_q4/q4.md",
-    "roadmap_q1/week_1.md",
-    "roadmap_q1/week_3.md",
-    "roadmap_q1/event_3.md",
-    "roadmap_q1/week_2.md",
-    "roadmap_q1/event_1.md",
-    "roadmap_q1/event_2.md",
-    "roadmap_q1/week_4.md",
     "in.html",
     "image.jpeg",
     "image.png",
-    "roadmap_bonus/bônus_2.md",
-    "roadmap_bonus/bônus_1.md",
-    "roadmap_q1/q1.md",
     "run.sh~",
-    "roadmap_q1/week_9.md",
     "4913",
     "run.sh",
-    "roadmap_q1/week_8.md",
-    "roadmap_q1/week_7.md",
-    "roadmap_q1/week_6.md",
-    "roadmap_q1/week_5.md",
-    "roadmap_q3/week_28.md",
-    "roadmap_q3/week_27.md",
-    "roadmap_q3/week_37.md",
-    "roadmap_q3/week_30.md",
-    "roadmap_q3/week_36.md",
-    "roadmap_q3/week_35.md",
     "roadmap_bonus",
     "the_roadmap.md~",
     "books.md~",
